@@ -354,61 +354,17 @@ box-shadow: 0 0 10px #555;
 
 .social li a.facebook:before { content: 'X'; }
 .social li a.twitter:before { content: '_'; }
-.social li a.flickr:before { content: 'b'; }
 .social li a.rss:before { content: '*'; }
-.social li a.dribble:before { content: 'S'; }
-.social li a.lastfm:before { content: 'u'; }
 .social li a.linkedin:before { content: 'v'; }
-.social li a.vimeo:before { content: '!'; }
-.social li a.google:before { content: 'k'; }
-.social li a.forrst:before { content: 'd'; }
-.social li a.skype:before { content: ':'; }
-.social li a.picassa:before { content: '8'; }
-.social li a.youtube:before { content: "'"; }
-.social li a.tumblr:before { content: '\\'; }
-.social li a.behance:before { content: 'G'; }
-.social li a.blogger:before { content: 'J'; }
-.social li a.delicious:before { content: 'L'; }
-.social li a.digg:before { content: 'Q'; }
-.social li a.friendfeed:before { content: 'f'; }
 .social li a.github:before { content: 'j'; }
-.social li a.wordpress:before { content: '$'; }
 
 .social li a:hover { color:#fff !important; background-color:#000; border-color: #fff; }
 .social li a.facebook:hover { background-color:#3c5fac; }
 .social li a.twitter:hover { background-color:#5ec3df; }
-.social li a.flickr:hover { background-color:#FF0084; }
 .social li a.rss:hover { background-color:#ff9900; }
-.social li a.dribble:hover { background-color:#EA4C89; }
-.social li a.lastfm:hover { background-color:#D51007; }
 .social li a.linkedin:hover { background-color:#2089b5; }
-.social li a.vimeo:hover { background-color:#0dadd6; }
-.social li a.google:hover { background-color:#c63d2d; }
-.social li a.forrst:hover { background-color:#5b9a68; }
-.social li a.skype:hover { background-color:#00aff0; }
-.social li a.picassa:hover { background-color:#ffd34e; }
-.social li a.youtube:hover { background-color:#c8312b; }
-.social li a.pinterest:hover { background-color:#cb2027; }
-.social li a.tumblr:hover { background-color: #2C4762; }
-.social li a.behance:hover { background-color: #3878F6; }
-.social li a.blogger:hover { background-color: #fc9947; }
-.social li a.delicious:hover { background-color: #3274d1; }
-.social li a.digg:hover { background-color: #205891; }
-.social li a.friendfeed:hover { background-color: #2f72c4; }
 .social li a.github:hover { background-color: #000; }
-.social li a.wordpress:hover { background-color: #0083b3; }
-.social li a.instagram:hover { background-color:#3f729b; }
-.social li a.pinterest:before { content: "\f0d2"; }
-.social li a.instagram:before { content: "\f083"; }
 
-
-/* TWITTER WIDGET ON CONTENT PAGE */
-.content .widget-twitter ul { list-style: none; padding:0; }
-.content .widget-twitter ul li { position: relative; margin-bottom:3em; padding-top:.4em; }
-.content .widget-twitter ul li:before { content: "\f099"; position: absolute; top: 0; left: 0; font-size:24px; color: #ccc; text-shadow: 0 1px 0 #fff; }
-.content .widget-twitter ul li span { position:relative; display:block; margin-left:4em; padding:1em 1.4em; background:#fff; }
-.content .widget-twitter ul li span:before { content:''; position:absolute; top:0; right:100%; width: 0; height: 0; border-top: 13px solid #fff; border-left: 15px solid transparent; }
-.content .widget-twitter ul li span + a { float:right; margin-top:.4em; color:#aaa; }
 
 /* TWITTER WIDGET ON COVER PAGE */
 .cover .widget-twitter { position: absolute; bottom: 0; left: 0; width: 100%; }
@@ -416,11 +372,9 @@ box-shadow: 0 0 10px #555;
 .cover .widget-twitter ul li { margin-left: 70px; }
 .cover .widget-twitter ul li span { position:relative; }
 .cover .widget-twitter ul li span + a { margin-left: 1em; color:#aaa; }
-/* update : v.1.1 */
 .widget-twitter ul li p { margin: 0; display: inline; }
 .widget-twitter ul li p.interact { display: none; }
 .widget-twitter ul li p.timePosted { margin-left: 1.2em; color:#aaa; }
-/* update : v.1.2 */
 .cover .widget-twitter .twitter-link:before { content: "\f099"; position: absolute; top: 15px; left: 15px; line-height: 1; padding: .6em; font-size:18px; color: #fff; background: #0CF; border-radius: 50%; }
 .cover .widget-twitter .twitter-link:hover:before { background: #222; }
 
