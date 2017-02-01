@@ -308,6 +308,7 @@ box-shadow: 0 0 10px #555;
 .portfolio-single > .row { padding-top:1em; }
 .portfolio-field { padding-top:2em; }
 .portfolio-field p { margin-top:0; }
+.portfolio-field img { border: 1px solid #eee; }
 .portfolio-field img, .portfolio-field .fluid-width-video-wrapper, .portfolio-field video { margin-bottom:50px; }
 .portfolio-title h2 { margin:0; font-size: 2em; }
 .portfolio-field h3 { margin: 2em 0 .4em 0; padding-left:10px; font-size: 1.3em; }
