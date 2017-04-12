@@ -358,6 +358,11 @@ box-shadow: 0 0 10px #555;
 .social li a.rss:before { content: '*'; }
 .social li a.linkedin:before { content: 'v'; }
 .social li a.github:before { content: 'j'; }
+.social li a.stackoverflow:before {
+  font-family: FontAwesome;
+  font-size: 12px;
+  content: '\f16c';
+}
 
 .social li a:hover { color:#fff !important; background-color:#000; border-color: #fff; }
 .social li a.facebook:hover { background-color:#3c5fac; }
@@ -365,7 +370,7 @@ box-shadow: 0 0 10px #555;
 .social li a.rss:hover { background-color:#ff9900; }
 .social li a.linkedin:hover { background-color:#2089b5; }
 .social li a.github:hover { background-color: #000; }
-
+.social li a.stackoverflow:hover { background-color: #F48024; }
 
 /* TWITTER WIDGET ON COVER PAGE */
 .cover .widget-twitter { position: absolute; bottom: 0; left: 0; width: 100%; }
