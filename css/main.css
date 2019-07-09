@@ -31,7 +31,7 @@ img { width:auto; max-width:100%; height:auto; }
 .cf:before, .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
 
-.easing, #header nav ul a, .btn, .portfolio-nav a.button, .social li a, input,textarea, .media-box .mask, .cover h1, .cover h2, .cover h3, .rm-close span, .cover .widget-twitter .twitter-link:before, .latest-from-blog a, .more a, .post-pagination li a, .navigation a { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.easing, #header nav ul a, .btn, .portfolio-nav a.button, .social li a, input,textarea, .media-box .mask, .cover h1, .cover h2, .cover h3, .rm-close span, .twitter-link:before, .latest-from-blog a, .more a, .post-pagination li a, .navigation a { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .easing-long { -webkit-transition: all 1.2s ease-out; -moz-transition: all 1.2s ease-out; -ms-transition: all 1.2s ease-out; -o-transition: all 1.2s ease-out; transition: all 1.2s ease-out; }
 .center { text-align: center; }
 
@@ -55,7 +55,7 @@ body, input, textarea, select, button, input[type="button"], input[type="reset"]
 { font-family: Lato, Arial, serif; }
 
 /* FONT AWESOME ICONS */
-.fancy-ico:before, #fancybox-close:before, .icon, .icon:before, .portfolio-items .mask:before, #header ul li a:before, .widget-twitter .twitter-link:before, .widget-twitter ul li:before, .alert:before, .social li a.pinterest:before,  .social li a.instagram:before, .rm-close span:before { font-family: FontAwesome; font-weight: normal; text-align:left; font-style: normal; display: inline-block; text-decoration: inherit; }
+.fancy-ico:before, #fancybox-close:before, .icon, .icon:before, .portfolio-items .mask:before, #header ul li a:before, .twitter-link:before, .widget-twitter ul li:before, .alert:before, .social li a.pinterest:before,  .social li a.instagram:before, .rm-close span:before { font-family: FontAwesome; font-weight: normal; text-align:left; font-style: normal; display: inline-block; text-decoration: inherit; }
 
 
 
@@ -372,18 +372,6 @@ box-shadow: 0 0 10px #555;
 .social li a.github:hover { background-color: #000; }
 .social li a.stackoverflow:hover { background-color: #F48024; }
 
-/* TWITTER WIDGET ON COVER PAGE */
-.cover .widget-twitter { position: absolute; bottom: 0; left: 0; width: 100%; }
-.cover .widget-twitter ul { list-style: none; margin: 0; padding: .9em .9em .9em 0; min-height: 40px; background: #fff; }
-.cover .widget-twitter ul li { margin-left: 70px; }
-.cover .widget-twitter ul li span { position:relative; }
-.cover .widget-twitter ul li span + a { margin-left: 1em; color:#aaa; }
-.widget-twitter ul li p { margin: 0; display: inline; }
-.widget-twitter ul li p.interact { display: none; }
-.widget-twitter ul li p.timePosted { margin-left: 1.2em; color:#aaa; }
-.cover .widget-twitter .twitter-link:before { content: "\f099"; position: absolute; top: 15px; left: 15px; line-height: 1; padding: .6em; font-size:18px; color: #fff; background: #0CF; border-radius: 50%; }
-.cover .widget-twitter .twitter-link:hover:before { background: #222; }
-
 /* COVER PAGE */
 .cover-image-holder { display: none; }
 .cover { position: relative; z-index:1000; width:100%; height:100%; overflow:hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
@@ -554,7 +542,6 @@ a.ribbon:hover { color: #000; }
 @media screen and (max-width: 560px) {
 	#header nav ul a { line-height:60px; font-size: 17px; }
 	.content { padding: 2em 1.2em; }
-	.cover .widget-twitter { display: none; }
 }
 
 
