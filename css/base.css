@@ -1,13 +1,13 @@
 /* RETRO STYLE */
 
 /* FONTS */
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
- 
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
 /* BODY */
 body, input, textarea, select, button, html input[type="button"], input[type="reset"], input[type="submit"], .work-desc h5
 { font-family: Lora, Georgia, "Times New Roman", Times, serif; }
- 
+
 /* HEADINGS */
 h1, h2, h3
 { font-family: "Arvo", serif; }
@@ -36,4 +36,3 @@ h1, h2, h3
 .content h2 span:after { right: 1.2em; }
 .content h2 span:before, .content h2 span:after { content: "\f005"; }
 .content h3 span:before { content: "\f02e"; top: auto; bottom: -14px; left: 50%; margin-left: -8px; }
-
